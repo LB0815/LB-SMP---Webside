@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="LB0815">
+    <meta name="decription" content="">
+    <title>Settings</title>
+    <base href="/">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <!-- Home -->
+        <a href="index.html" class="active">Home</a>
+
+        <!-- About -->
+        <div class="dropdown" id="drop1" >
+            <button class="dropdown-btn">
+                About
+                <span class="arrow">▼</span>
+            </button>
+
+            <div class="dropdown-content">
+                <a href="about/us.html">Us</a>
+                <a href="about/host.html">Host</a>
+                <a href="about/rules.html">Rules</a>
+            </div>
+        </div>
+
+        <!-- Seasions-->
+        <div class="dropdown" id="drop2">
+            <button class="dropdown-btn">
+                Seasions
+                <span class="arrow">▼</span>
+            </button>
+
+            <div class="dropdown-content">
+                <a href="seasions/1.html">Seasion 1</a>
+                <a href="seasions/2.html">Seasion 2</a>
+                <a href="seasions/3.html">Seasion 3</a>
+                <a href="seasions/all.html">All</a>
+                <a href="seasions/next.html">Next</a>
+                <a href="seasions/current.html">Current</a>
+            </div>
+        </div>
+
+        <!-- Join -->
+        <a href="sites/join.html" class="active">Join</a>
+
+        <!-- Members -->
+        <a href="sites/members.html" class="active">Members</a>
+
+        <!-- Owner -->
+        <a href="sites/owner.html" class="active">Owner</a>
+
+        <!-- Settings -->
+        <a href="sites/settings.html" class="active">Settings</a>
+        
+        <!-- FAQ -->
+        <a href="sites/faq.html" class="active">FAQ</a>
+
+        <!-- Login -->
+        <a href="sites/login.html" class="active">Login</a>
+    </nav>
+
+    <!-- Hier kommt der Webside Code -->
+    <h2 class="heading top under">Instance Settings</h2>
+    <p class="text">To start you should set your allocated RAM to 4GB</p>
+    <img src="images/FindingSpace.png" class="image">
+    <p class="text">Under "JVM Arguments" change 2G to 4G, but make sure, that it fits in your maximum RAM shown in Task-Manager under RAM in the top right corner</p>
+
+    <h2 class="heading under top">In-Game Setting</h2>
+    <p class="text">On most Seasions we were running following Settings</p>
+    <ul>
+        <li>Keep Inventory</li>
+        <li>Easy Mode</li>
+        <li>PvP off</li>
+    </ul>
+    <!-- Hier endet der Webside Code -->
+
+    <script src="dropdown.js"></script>
+
+</body>
+</html>

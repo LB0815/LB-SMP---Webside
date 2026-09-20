@@ -1,0 +1,279 @@
+/* ---------------------------------------------------------------------------------------------
+    HTML Tag Modifiers
+--------------------------------------------------------------------------------------------- */
+body {
+    margin: 0;
+    cursor: default;
+    font-family: Arial, sans-serif;
+}
+
+input[type="password"] {
+    font-family: Verdana;
+    letter-spacing: 0.125em;
+}
+
+code {
+    background-color: #222;
+    color: #1F1F1F;
+}
+
+/* ---------------------------------------------------------------------------------------------
+    Text Classes
+--------------------------------------------------------------------------------------------- */
+.text {
+    margin: 0;
+    padding: 15px;
+}
+
+.keep {
+    white-space: pre-wrap;
+}
+
+.code {
+    background-color: #222;
+}
+
+.heading {
+    margin: 0;
+    padding-left: 15px;
+}
+
+.absoluteHeading {
+    text-align: center;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------------------------------------------------------
+    Image Classes
+--------------------------------------------------------------------------------------------- */
+.head_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.image {
+    padding-left: 15px;
+}
+
+.center {
+    display: flex;
+    align-items: center; /* vertikale Mitte */
+    gap: 10px;           /* Abstand zwischen Bild und Text */
+}
+
+/* ---------------------------------------------------------------------------------------------
+    Padding Classes
+--------------------------------------------------------------------------------------------- */
+.top {
+    padding-top: 10px;
+}
+
+.left {
+    padding-left: 10px;
+}
+
+.right {
+    padding-right: 10px;
+}
+
+.down {
+    padding-bottom: 10px;
+}
+
+/* ---------------------------------------------------------------------------------------------
+    Download Design
+--------------------------------------------------------------------------------------------- */
+
+.download-txt {
+    background: rgb(68, 148, 68);
+    padding: 7px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+.download-txt:hover {
+    background: rgb(98, 212, 98);
+}
+
+/* ---------------------------------------------------------------------------------------------
+    NAVBAR 
+--------------------------------------------------------------------------------------------- */
+nav {
+    background: #222;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Links */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+/* Highlight */
+nav a:hover {
+    background: #333;
+}
+
+/* DROPDOWN */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-btn {
+    background: #222;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.2s;
+}
+
+/* Highlight */
+.dropdown-btn:hover {
+    background: #333;
+}
+
+/* Pfeil */
+.arrow {
+    transition: transform 0.25s ease;
+}
+
+/* Pfeil dreht sich */
+.dropdown.open .arrow {
+    transform: rotate(180deg);
+}
+
+/* Dropdown Inhalt */
+.dropdown-content {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: #333;
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.25s ease, opacity 0.25s ease;
+}
+
+/* Sichtbar */
+.dropdown.open .dropdown-content {
+    max-height: 300px;
+    opacity: 1;
+}
+
+/* Buttons im Dropdown */
+.dropdown-content a {
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    background: #333;
+    transition: 0.2s;
+}
+
+.dropdown-content a:hover {
+    background: #444;
+}
+
+/* ---------------------------------------------------------------------------------------------
+    Login 
+--------------------------------------------------------------------------------------------- */
+.login-container {
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 12px 0;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background: #45a049;
+}
+
+#loginMessage {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------------------------
+    Ranks 
+--------------------------------------------------------------------------------------------- */
+
+.player::after {
+    content: " [Player]";
+    color: gray;
+    font-weight: bold;
+}
+
+.legend::after {
+    content: " [Legend]";
+    color: magenta;
+    font-weight: bold;
+}
+
+.vip::after {
+    content: " [Vip]";
+    color: gold;
+    font-weight: bold;
+}
+
+.builder::after {
+    content: " [Builder]";
+    color: cyan;
+    font-weight: bold;
+}
+
+.admin::after {
+    content: " [Admin]";
+    color: red;
+    font-weight: bold;
+}
+
+.sradmin::after {
+    content: " [SR_ADMIN]";
+    color: rgb(173, 27, 27);
+    font-weight: bold;
+}
+
+.owner::after {
+    content: " [Owner]";
+    color: rgb(187, 0, 0);
+    font-weight: bold;
+}

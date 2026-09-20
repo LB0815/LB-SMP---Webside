@@ -1,0 +1,72 @@
+------------------------ Necessary Mods ------------------------
+
+Fabric API                    Version 0.92.7       for 1.20.1
+
+Just Enough Items (JEI)       Version 15.20.0.129  for 1.20.1
+
+Apple Skin                    Version 2.5.2        for 1.20.1
+
+Clumps                        Version 12.0.0.4     for 1.20.1
+
+Create: Steam 'n Rails        Version 1.7.2        for 1.20.1
+
+Create Fabric                 Version 6.0.8.1      for 1.20.1
+
+Create: Copycat+              Version 3.0.7        for 1.20.1
+
+Create: New Age               Version 1.1.7f       for 1.20.1
+
+Create: Jetpack               Version 4.4.2        for 1.20.1
+
+Botarium                      Version 2.3.4        for 1.20.1
+
+Create: Big Cannons           Version 5.11.2       for 1.20.1
+
+Fabric Language Kotlin        Version 1.13.10      for 1.20.1
+
+Ritchie's Projectile Libary   Version 2.1.1        for 1.20.1
+
+Create: Framed                Version 1.7.3        for 1.20.1
+
+Create: Cobblestone           Version 1.4.9        for 1.20.1
+
+Architectury API              Version 9.2.14       for 1.20.1
+
+
+
+
+----------------------- Optional Mods -----------------------
+
+Sodium                                             for 1.20.1      Dependences: -
+
+Sodium Extra                                       for 1.20.1      Dependences: Sodium
+
+Reeses Sodium Options                              for 1.20.1      Dependences: Sodium
+
+GammaUtils                                         for 1.20.1      Dependences: Cloth Config API, Mod Menu
+
+Xaero's Worldmap                                   for 1.20.1      Dependences: -
+
+Lithium                                            for 1.20.1      Dependences: -
+
+Mod Menu                                           for 1.20.1      Dependences: -
+
+Continuity                                         for 1.20.1      Dependences: -
+
+Jade                                               for 1.20.1      Dependences: -
+
+Zoomify                                            for 1.20.1      Dependences: -
+
+Memory Leak Fix                                    for 1.20.1      Dependences: -
+
+Mouse Tweaks                                       for 1.20.1      Dependences: Mod Menu
+
+Indium                                             for 1.20.1      Dependences: -
+
+Entity Culling                                     for 1.20.1      Dependences: -
+
+Iris Shaders                                       for 1.20.1      Dependences: Sodium
+
+Ferrite Core                                       for 1.20.1      Dependences: -
+
+Controlling                                        for 1.20.1      Dependences: -
