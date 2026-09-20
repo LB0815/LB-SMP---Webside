@@ -10,17 +10,17 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         {
             username: "Admin",
             password: "AdminEnter",
-            redirect: "users/admin.html"
+            redirect: "../users/admin.html"
         },
         {
             username: "Owner",
             password: "Ceo2Word",
-            redirect: "users/ceo.html"
+            redirect: "../users/ceo.html"
         },
         {
             username: "Temporary",
             password: "tempPass",
-            redirect: "users/temp_user.html"
+            redirect: "../users/temp_user.html"
         }
     ];
 
