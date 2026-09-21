@@ -170,7 +170,7 @@ nav a:hover {
     background: #333;
     width: 100%;
     border-radius: 6px;
-    overflow: hidden;
+    overflow: auto;
     max-height: 0;
     opacity: 0;
     transition: max-height 0.25s ease, opacity 0.25s ease;
